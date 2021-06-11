@@ -1,6 +1,6 @@
 import web3, json
 from web3 import exceptions
-blockchain = web3.Web3(web3.Web3.HTTPProvider('https://ropsten.infura.io/v3/6328692f691544bea7e3fcb33ac9ac9a'))
+blockchain = web3.Web3(web3.Web3.HTTPProvider('Blockchain'))
 Contract_address = web3.Web3.toChecksumAddress('0xa00fa5d9a857f62d72ff3361c0881d6309a084d1')
 Contract_abi = json.loads('''[
 	{
