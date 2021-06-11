@@ -1,7 +1,7 @@
 import telebot, Ethereum, threading, time, MongoDB
 from datetime import datetime
 
-bot = telebot.TeleBot('1204066865:AAEi1GKjnYGm5jM96sHuzjqarrHzdUB4nDo')
+bot = telebot.TeleBot('TOKEN')
 
 
 def timer_func():
