@@ -10,9 +10,9 @@
 ## Getting started
 Переконайтеся, що ви замінили TOKEN на власний маркер API в файлі .
 ```
-<bot = telebot.TeleBot("TOKEN")
+bot = telebot.TeleBot("TOKEN")
 ```
 Та переконайтесь що замінили Blockchain на адресу API отриману від Infura.
 ```
-<blockchain = web3.Web3(web3.Web3.HTTPProvider('Blockchain'))
+blockchain = web3.Web3(web3.Web3.HTTPProvider('Blockchain'))
 ```
