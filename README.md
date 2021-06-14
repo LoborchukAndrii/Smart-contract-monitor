@@ -16,3 +16,11 @@ bot = telebot.TeleBot("TOKEN")
 ```
 blockchain = web3.Web3(web3.Web3.HTTPProvider('Blockchain'))
 ```
+### Контракт
+В файлі Ethereum.py встановіть ABI і bytecode вашого смарт-контракту.
+```
+Contract_abi = json.loads("ABI")
+```
+```
+Contract_bytecode = "bytecode"
+```
